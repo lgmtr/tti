@@ -5,7 +5,7 @@
     <classes>
       <class name="de.haw.part2.test.RDFStatementTest">
         <methods>
-          <include name="createStatement"/>
+          <include name="readRDFFile"/>
         </methods>
       </class> <!-- de.haw.part2.test.RDFStatementTest -->
     </classes>

@@ -1,0 +1,37 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  	<rdf:Description rdf:about="http://link.springer.com/book/10.1007/978-3-319-16658-2">
+    	<dc:title>Semantic Web - ImpSemanticwebblablabla</dc:title>
+    	<dc:type>book</dc:type>
+    	<dc:creator rdf:parseType="Resource">
+      		<vcard:Family>Workman</vcard:Family>
+      		<vcard:Given>Michael</vcard:Given>
+    	</dc:creator>
+    	<dc:date>2016</dc:date>
+    	<dc:subject>Architektur</dc:subject>
+  	</rdf:Description>
+  	<rdf:Description rdf:about="http://www.amazon.de/Harry-Potter-Weisen-Joanne-Rowling/dp/3551354014/">
+    	<dc:title>Harry Potter und der Stein der Weisen</dc:title>
+    	<dc:description>Eigentlich hatte Harry geglaubt, er sei ein ganz normaler Junge. Zumindest bis zu seinem elften Geburtstag. Da erfährt er, dass er sich an der Schule für Hexerei und Zauberei einfinden soll. Und warum? Weil Harry ein Zauberer ist. Und so wird für Harry das erste Jahr in der Schule das spannendste, aufregendste und lustigste in seinem Leben. Er stürzt von einem Abenteuer in die nächste ungeheuerliche Geschichte, muss gegen Bestien, Mitschüler und Fabelwesen kämpfen. Da ist es gut, dass er schon Freunde gefunden hat, die ihm im Kampf gegen die dunklen Mächte zur Seite stehen.</dc:description>
+    	<dc:type>book</dc:type>
+    	<dc:creator rdf:parseType="Resource">
+      		<vcard:Family>Rowling</vcard:Family>
+      		<vcard:Given>Joanne K.</vcard:Given>
+    	</dc:creator>
+    	<dc:date>23.012005</dc:date>
+    	<dc:subject>Gezauber</dc:subject>
+  	</rdf:Description>
+  	<rdf:Description rdf:about="http://www.amazon.de/Star-Wars-Darth-Bane-Regel/dp/3442265967/">
+    	<dc:title>Star Wars: Darth Bane - Die Regel der Zwei</dc:title>
+    	<dc:description>Kein anderer Sith-Lord ist jemals so tief in die alten, längst vergessenen Geheimnisse seines Ordens eingetaucht wie Darth Bane, der Schöpfer der Dunkelheit. Und er hat nicht nur den Jedi-Rittern eine schwere Niederlage bereitet, sondern dabei auch seinen eigenen Orden praktisch ausgelöscht. Doch nun will er ihn aus der Asche neu entstehen lassen – und nur ein einziger Jedi-Padawan ahnt etwas von dem Verhängnis, das sich über der Galaxis zusammenbraut ...</dc:description>
+    	<dc:type>book</dc:type>
+    	<dc:creator rdf:parseType="Resource">
+      		<vcard:Family>Karpyshyn</vcard:Family>
+      		<vcard:Given>Drew</vcard:Given>
+    	</dc:creator>
+    	<dc:date>2008</dc:date>
+    	<dc:subject>Laserschwertgemetzel</dc:subject>
+  	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,58 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://somewhere/lib#a55c3da4-df11-4697-9ef0-eafcc2a3d993">
+    <dc:relation>isbn = {0321815734, 9780321815736}</dc:relation>
+    <dc:description>Great reference for class, and also a great reference for preparing technical proposals.</dc:description>
+    <dc:type>book</dc:type>
+    <dc:creator>Bass, Len and Clements, Paul and Kazman, Rick</dc:creator>
+    <dc:date>01.01.2012</dc:date>
+    <dc:subject>Architecture</dc:subject>
+    <dc:title>Software Architecture in Practice</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/lib#0a775d62-9525-45c1-8969-58001062f0cf">
+    <dc:relation>Virtual Reality</dc:relation>
+    <dc:description>Projekt Gutenberg</dc:description>
+    <dc:type>book</dc:type>
+    <dc:creator>Coleridge, Samuel Taylor</dc:creator>
+    <dc:date>01.07.2004</dc:date>
+    <dc:subject>Theory of Virtual Reality</dc:subject>
+    <dc:title>Biographia Literaria</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/lib#5351a294-0ece-44b2-867f-98c7ebc79dd0">
+    <dc:relation>IsVersionOf Elton John's 1976 song Candle in the Wind</dc:relation>
+    <dc:description>Tribute to a dead princess</dc:description>
+    <dc:type>sound</dc:type>
+    <dc:creator>John, Elton</dc:creator>
+    <dc:date>01.01.1997</dc:date>
+    <dc:subject>Diana, Princess of Wales</dc:subject>
+    <dc:title>Candle in the Wind</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/lib#7c6eb6f1-cb4b-47e4-a5c5-f54a363e1e48">
+    <dc:relation>doi={10.1007/978-3-642-28903-3}</dc:relation>
+    <dc:description>Grundlagen und Methoden der Virtuellen und Augmentierten Realität</dc:description>
+    <dc:type>book</dc:type>
+    <dc:creator>Doerner, Ralf and Broll, Wolfgang and Grimm, Paul and Jung, Bernhard</dc:creator>
+    <dc:date>01.01.2013</dc:date>
+    <dc:subject>Virtual and Augmented Reality</dc:subject>
+    <dc:title>Virtual und Augmented Reality (VR / AR)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/lib#088309fa-c5f1-404a-9247-15c9472694ae">
+    <dc:relation>ACM Library</dc:relation>
+    <dc:description>Creating and Sustaining Winning Solutions</dc:description>
+    <dc:type>book</dc:type>
+    <dc:creator>Hohmann, Luke</dc:creator>
+    <dc:date>01.01.2003</dc:date>
+    <dc:subject>Architecture</dc:subject>
+    <dc:title>Beyond Software Architecture: Creating and Sustaining Winning Solutions</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://somewhere/lib#556de966-7dfc-4726-859d-592081b617cb">
+    <dc:relation>isbn={3-528-05874-9}</dc:relation>
+    <dc:description>Masterkurs Computergrafik und Bildverarbeitung</dc:description>
+    <dc:type>book</dc:type>
+    <dc:creator>Nischwitz, Alfred and Haberäcker, Peter</dc:creator>
+    <dc:date>01.08.2004</dc:date>
+    <dc:subject>Computergraphic</dc:subject>
+    <dc:title>Masterkurs Computergrafik und Bildverarbeitung</dc:title>
+  </rdf:Description>
+</rdf:RDF>
