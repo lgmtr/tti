@@ -6,4 +6,16 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>tti_practice1</artifactId>
+  <developers>
+		<developer>
+			<name>Sascha Waltz</name>
+			<organization>HAW</organization>
+		</developer>
+		<developer>
+			<name>Johann Bronsch</name>
+			<organization>HAW</organization>
+		</developer>
+	</developers>
+  <description>TTI Praktikum 1</description>
+  <name>tti_practice1</name>
 </project>
