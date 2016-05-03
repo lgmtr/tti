@@ -1,0 +1,35 @@
+<http://tti-practice.com/practice2#Anakin Skywalker>
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://tti-practice.com/practice2#Obi-Wan Kenobi> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Mensch" ;
+        <http://tti-practice.com/practice2#jediPadawan>
+                "Padawan" .
+
+<http://tti-practice.com/practice2#sith>
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <http://tti-practice.com/practice2#forceSensitive> .
+
+<http://tti-practice.com/practice2#Darth Maul>
+        <http://purl.org/dc/elements/1.1/title>
+                "Zabrak" ;
+        <http://tti-practice.com/practice2#sith>
+                "Sith" .
+
+<http://tti-practice.com/practice2#jediPadawan>
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <http://tti-practice.com/practice2#jedi> .
+
+<http://tti-practice.com/practice2#Obi-Wan Kenobi>
+        <http://purl.org/dc/elements/1.1/title>
+                "Mensch" ;
+        <http://tti-practice.com/practice2#jediMaster>
+                "Master" .
+
+<http://tti-practice.com/practice2#jedi>
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <http://tti-practice.com/practice2#forceSensitive> .
+
+<http://tti-practice.com/practice2#jediMaster>
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <http://tti-practice.com/practice2#jedi> .

@@ -1,0 +1,96 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://tti-practice.com/practice2#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#simulation">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#scify"/>
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#action"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#historic">
+    <rdfs:subPropertyOf>
+      <rdf:Description rdf:about="http://tti-practice.com/practice2#shooter">
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#scify"/>
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#action"/>
+      </rdf:Description>
+    </rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#koreanRPG">
+    <rdfs:subPropertyOf>
+      <rdf:Description rdf:about="http://tti-practice.com/practice2#rpg">
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#scify"/>
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#fantasy"/>
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#action"/>
+      </rdf:Description>
+    </rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#hachNSlay">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#rpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#westernRPG">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#rpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#fps">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#shooter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#spaceshooter">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#shooter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#wowTBC">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://tti-practice.com/practice2#wow">
+        <j.0:westernRPG>westernRPG</j.0:westernRPG>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <j.0:westernRPG>westernRPG</j.0:westernRPG>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#battlefield1942">
+    <j.0:historic>Historic</j.0:historic>
+    <j.0:fps>FPS</j.0:fps>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#pointNClick">
+    <rdfs:subPropertyOf>
+      <rdf:Description rdf:about="http://tti-practice.com/practice2#adventure">
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#scify"/>
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#action"/>
+      </rdf:Description>
+    </rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#tps">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#shooter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#simcity">
+    <j.0:building>building</j.0:building>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#cnc">
+    <j.0:conquer>conquer</j.0:conquer>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#modern">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#shooter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#horror">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#action"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#building">
+    <rdfs:subPropertyOf>
+      <rdf:Description rdf:about="http://tti-practice.com/practice2#strategic">
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#scify"/>
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#fantasy"/>
+        <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#action"/>
+      </rdf:Description>
+    </rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#d3ROS">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://tti-practice.com/practice2#d3">
+        <j.0:hachNSlay>hackNSlay</j.0:hachNSlay>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <j.0:hachNSlay>hackNSlay</j.0:hachNSlay>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#monkeyisland">
+    <j.0:pointNClick>pointNClick</j.0:pointNClick>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://tti-practice.com/practice2#conquer">
+    <rdfs:subPropertyOf rdf:resource="http://tti-practice.com/practice2#strategic"/>
+  </rdf:Description>
+</rdf:RDF>
